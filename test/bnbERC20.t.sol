@@ -12,7 +12,7 @@ contract tokenTest is Test {
     }
 
     function test_Init() public {
-        assertEq(token.balanceOf(address(this)), 1_000_000 ether);
+        assertEq(token.balanceOf(address(this)), 1_000 ether);
     }
 
     function test_Transfer() public {

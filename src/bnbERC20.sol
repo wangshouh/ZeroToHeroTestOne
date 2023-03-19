@@ -4,7 +4,7 @@ pragma solidity ^0.8.15;
 import "solmate/tokens/ERC20.sol";
 
 contract BnBCoin is ERC20 {
-	uint256 public constant MAX_SUPPLY = 1_000_000 ether;
+	uint256 public constant MAX_SUPPLY = 1_000 ether;
 
 	constructor (
 		string memory _name,
